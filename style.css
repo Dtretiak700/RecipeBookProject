@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/smalltype-writing');
+
+body {
+    background-image: url(flat-lay-food-ingredients-with-recipe-veggies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.main-container {
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 10px;
+}
+
+.main-container p {
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Londrina Shadow', cursive;
+    color: #fff;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    font-family: 'SmallTypeWriting-Medium', sans-serif;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #1b252f;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: 'SmallTypeWriting-Medium', sans-serif;
+    background-color: #adb795;
+    color: #1b252f;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid #1b252f;
+    cursor: pointer;
+}
+
+.headOne {
+    font-family: 'SmallTypeWriting-Medium', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.headTwo {
+    font-family: 'SmallTypeWriting-Medium', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: 'SmallTypeWriting-Medium', sans-serif;
+    font-size: 13px;
+}
+
+.recipiesContainer {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8b79f;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.info-container p {
+    color: #fff;
+    font-size: 10px;
+}
+
+@media all and (max-width: 800px) {
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+    
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .recipe {
+        max-width: 300px;
+    }
+    img {
+        width: 300px;
+        height: 200px;
+    }
+    
+}
+
+
+
